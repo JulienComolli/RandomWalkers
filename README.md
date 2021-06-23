@@ -268,6 +268,7 @@ If you want to go **fullScreen**, uncommente the line `fullScreen()` and comment
 
 - **Y** : Activate/Deactivate the drawing of the RWs *heads*.
 
+- **D** : Activate/Deactivate the highlighting of the locked cells.
   
 
 - **S** : Pause/Unpause the game and highlight the RW color with the largest territory.

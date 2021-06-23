@@ -22,6 +22,8 @@ void keyPressed() {
   if (keyCode == 'E') controlHighlightFirst();
   
   if(keyCode == 'F') fillBlanks();
+  
+  if(keyCode == 'D') showLockedCells = !showLockedCells;
 }
 
 
@@ -32,7 +34,7 @@ void reset() {
   lastMove = -1;
   gridInitCell();
   pause = false;
-  //colorsInit(cpreset, rgbp);
+  colorsInit(cpreset, rgbp);
   rwsInit();
   initScoresTab();
 }

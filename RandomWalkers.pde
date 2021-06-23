@@ -32,8 +32,8 @@ void setup() {
 
   //---- Basic options
   pop = 8; 
-  size = 5;
-  spd = 10; 
+  size = 1;
+  spd = 100; 
   fR = 60;
 
 
@@ -47,14 +47,14 @@ void setup() {
   canDie = true;
   dieRatio = (1.0/pop*100.0) / 2;
   overlap = true;
-  drawhead = true;
+  drawhead = false;
   spawnType = 1;
 
   //---- GEN PERSITANCE
   genPersistanceMode = true; // Lock cells if it's visited more than [genPersistanceNb] times by the same RW.
 
   genPersistanceNb = 1; //Number of time the RW need to visit a cells to "lock it".
-  showLockedCells = true; //Highlight the locked cells
+  showLockedCells = false; //Highlight the locked cells
 
   challengeLockedCells = true; //If a RW encounting a locked cells can try to eat it.
   //If prob set to "10", the eater will have 1/10 to eat the locked cell.
@@ -75,9 +75,9 @@ void setup() {
    of the percentage.
    [rgbp] is the pattern of rgb used to generate randomly unspecified colors.*/
 
-  cpreset = eight_colors; 
+  cpreset = none; 
   name_cpreset = eight_colors_names; 
-  rgbp = classic;
+  rgbp = rgbPattern1;
   cpIsPop = false;   //The population of RW is equal to the number of colors in the chosen preset
 
   //---- SIZE
