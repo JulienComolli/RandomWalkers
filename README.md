@@ -306,11 +306,11 @@ In order to execute this program you must have Processing 3+ installed on your c
 
   
 
-Download or clone the repository. Check that all the **.pde** file are in a folder named `RandomWalkers` and simply launch any **.pde** file using processing. If there is an error try to execute **RandomWalkers.pde**.
+Download or clone the repository. Check that all the **.pde** files are in a folder named `RandomWalkers` and simply launch any **.pde** file using processing. If there is an error try to execute **RandomWalkers.pde**.
 
   
 
-*On window double clicking on a **.pde** and using [Processing](https://processing.org) to execute it is enough*
+*On window double clicking on a **.pde** and using [Processing](https://processing.org) to execute it should work*
 
   
   
